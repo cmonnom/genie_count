@@ -1,23 +1,16 @@
 # genie_count
 A quick script to evaluate the number of specific mutation entries in a particular version of Genie.
 
-A quick script (thanks Jeff) to evaluate the number of
-specific mutation entries in a particular version of Genie.
-
-Place genie data directories next to this script
-Update directories, versions and genes arraya to parse
-each genie directory and the list of genes you want to count
+You can pass multiple genie directories, multiple genes and multiple oncotree codes as arguments
 
 The output would be something like this:
 <pre>
-count for 9.0:
- - JAK2 4
- - TET2 33
-count for 9.1:
- - JAK2 136
- - TET2 31
-count for 10.0:
- - JAK2 166
- - TET2 40
+Count for C:/Users/Guillaume/Documents/scripts/genie/genie10.0:
+ - Oncotree Code AML:
+  - TET2 247
+  - JAK2 133
+ - Oncotree Code PV:
+  - TET2 40
+  - JAK2 166
 </pre>
 
