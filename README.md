@@ -9,6 +9,7 @@ Update directories, versions and genes arraya to parse
 each genie directory and the list of genes you want to count
 
 The output would be something like this:
+<pre>
 count for 9.0:
  - JAK2 4
  - TET2 33
@@ -18,5 +19,5 @@ count for 9.1:
 count for 10.0:
  - JAK2 166
  - TET2 40
+</pre>
 
-"""
